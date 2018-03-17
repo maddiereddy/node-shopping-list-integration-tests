@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: k5fogujlqbHkA1HFITp8cZxTQnIeF8h89+LmVjrwgIkHgy1y4XsbWwsK1TT+p0HYXDXYVlgnBKPcOYgOCdsJuoP8DYx+mMuv1utTv8AM1AR2hXYfGiSw7fZkcnKwIHHZvoSayPCCJkXmQu7TU6KP4arCqFoyfgSQgegCnzlmDweuvlvCZQJOc3jcxH7aBxuyPuZWT3dsS1m7WHHrENHce1wmO/NsUKxZA7OnvkbTBiwLxkI+e2LoLHuGeEmeYWYhiVfHLmcZxrBrxcQLBJEHNx77GHgN5UB+BbPWCRgGhaNme2lBAbMnVdyIcw3Wo8J9BXaKowXGlKWDcIlNRIVhqGeSc1rhcDruxQRUjrzAHaXYfqwYOwSxHtIr64WX1nfKgG/HtTrF3xqAGXykK/yJAhsSVlyU1vopXfWdo/SYuS+ivOw5CptyLgEWBkiPhaAOGXqwB7KZVqWnUNI9HPhB3cChVLacOG0VFkdOus4nXt8dvuAU/NtlTAUnAE0EgiFzIRLNwsL35E7xiCRTHdpl6T5uN3AA86+cWQ7Gm4srWOQ7xthGpqepTdth+odqdjBMFzNvMVrxt36GZxMbSrxhorpglksKAZ1LtRv+0bXU8TgyspKjHO3VV+WOSfrUyE8cQI2f3j91QkgMJTgKecoKg7Gfh2uf5BvKYyEq7gpq49Q=
+  app: nameless-savannah-60190
+  on:
+    repo: maddiereddy/node-shopping-list-integration-tests
+    branch: tests-for-recipes
